@@ -7,11 +7,11 @@ Pages from the `docs/` folder (branch `main`, folder `/docs`).
 
 | Lab | Phases | Time |
 |---|---|---|
-| [Build your first Genie with Agent studio](docs/agentic-builder-essentials-lab-guide.html) | 5 phases, 15 tasks | 2 to 3 hours |
+| [Build your first Genie with Agent studio](docs/index.html) | 5 phases, 15 tasks | 2 to 3 hours |
 
 ## Structure
 
-- `docs/` — the published surface: a course index and one self-contained page for the lab (Pages source)
+- `docs/` — the published surface: the lab as one self-contained page (Pages source)
 - Every commit is checked by the publish guard workflow
   (`.github/workflows/publish-guard.yml`); the same checks run locally as a
   pre-push hook. Enable it once per clone with:
